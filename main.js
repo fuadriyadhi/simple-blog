@@ -1,5 +1,6 @@
 import Page404 from "./src/Pages/404";
 import AddBlog from "./src/Pages/AddBlog";
+import Details from "./src/Pages/Details";
 import Home from "./src/Pages/Home";
 import Login from "./src/Pages/Login";
 import Register from "./src/Pages/Register";
@@ -23,6 +24,10 @@ switch (page) {
 
   case "/addBlog":
     userData ? AddBlog() : (window.location.href = "/login");
+    break;
+
+  case "/details":
+    Details();
     break;
 
   default:

@@ -7,16 +7,16 @@ export default function Home() {
   //ubah doc title
   document.title = "Home Page";
 
-  axios.get("http://localhost:3000/blogs").then((res) => {
+  axios.get("http://localhost:3000/blogs?_sort=id&_order=desc").then((res) => {
     app.innerHTML += Navbar();
     res.data.forEach((e) => {
       app.innerHTML += `
-      <div class="flex flex-col gap-4 max-w-[900px] shadow-lg mx-auto my-4 p-6">
+      <a href="/details?id=${e.id}" class="flex flex-col gap-4 max-w-[900px] shadow-lg mx-auto my-6 p-6">
         <h1 class="text-4xl">${e.judul}</h1>
-        <small>${e.author}</small>
-        <img src="${e.img} alt="${e.judul}"  class="w-full h-[280px] object-cover"/>
+        <small>${e.author} - ${e.createdAt}</small>
+        <img src="${e.img} alt="${e.judul}"  class="w-full h-[280px] my-4 object-cover rounded-lg"/>
         <p>${e.content}</p>
-      </div>
+      </a>
       `;
     });
   });

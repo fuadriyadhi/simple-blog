@@ -55,7 +55,7 @@ export default function AddBlog() {
                 <textarea id="content" class="w-full p-3 h-[300px] font-light rounded-md border-slate-200 border-[2px]"></textarea>
             </div>
 
-            <button class="h-10 w-[30%] bg-orange-500 text-white rounded-md ml-auto" type="submit">Submit</button>
+            <button class="h-10 w-[30%] bg-slate-700 text-white rounded-md ml-auto" type="submit">Submit</button>
         </form>
     </div>
     `;

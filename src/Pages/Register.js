@@ -61,7 +61,7 @@ export default function Register() {
               border-slate-200 border-[2px]"/>
           </div>
 
-          <button class="h-10 w-[30%] bg-orange-500 text-white rounded-md ml-auto">
+          <button class="h-10 w-[30%] bg-slate-700 text-white rounded-md ml-auto">
           Register
           </button>
         </form>
