@@ -24,6 +24,11 @@
       "email": "joko@gmail.com",
       "password": "$2a$10$JaY1/d2u5fYPVkrHec/Xqu29dS3YWEJmW92TPKR.Z5pVv42mKjQoq",
       "id": 6
+    },
+    {
+      "email": "sahabat@gmail.com",
+      "password": "$2a$10$47YjYrQyXsJ8IQJ7Ge9.J.BGhXQBr9rcKtatWjxNjK30gy8mFwpY6",
+      "id": 7
     }
   ],
   "blogs": [
