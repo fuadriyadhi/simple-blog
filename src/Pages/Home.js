@@ -17,7 +17,7 @@ export default function Home() {
         <small>${e.author} - ${e.createdAt}</small>
         <img src="${e.img} alt="${e.judul}"  class="w-full h-[280px] my-4 object-cover rounded-lg"/>
         <p>${e.content}</p>
-        <a class="bg-slate-700 w-[22%] text-center py-2 rounded-md ml-auto text-white" href="/details?id=${e.id}">Lihat Selengkapnya</a>
+        <a class="bg-slate-700 text-[0.8rem] text-center px-4 py-2 rounded-md ml-auto text-white" href="/details?id=${e.id}">Lihat Selengkapnya</a>
       </div>
       `;
     });
