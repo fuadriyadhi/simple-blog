@@ -29,6 +29,11 @@
       "email": "sahabat@gmail.com",
       "password": "$2a$10$47YjYrQyXsJ8IQJ7Ge9.J.BGhXQBr9rcKtatWjxNjK30gy8mFwpY6",
       "id": 7
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$k1wrT72WC7hU6hTWfUcaS.qM6op2zv/ek6GuTxQw3zQ/nYv5Ky6/2",
+      "id": 8
     }
   ],
   "blogs": [
@@ -37,7 +42,7 @@
       "author": "fuad@gmail.com",
       "judul": "Pantai Pasir Panjang",
       "img": "https://images.pexels.com/photos/10866644/pexels-photo-10866644.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "content": "Liburan akhir tahun",
+      "content": "Pantai Pasir Panjang adalah destinasi indah yang terkenal dengan hamparan pasir putihnya yang membentang luas, seolah tak berujung. Garis pantainya yang panjang memberikan ruang yang luas bagi pengunjung untuk bersantai, bermain, atau sekadar menikmati deburan ombak yang tenang. Air lautnya yang jernih memantulkan cahaya matahari, menciptakan kilauan yang memukau di permukaannya. Di sore hari, pemandangan matahari terbenam di Pantai Pasir Panjang sungguh mempesona, dengan semburat warna jingga dan merah yang menghiasi langit. Pantai ini bukan hanya tempat untuk menikmati keindahan alam, tetapi juga tempat untuk merasakan kedamaian dan ketenangan yang sulit ditemukan di tengah hiruk-pikuk kota.",
       "createdAt": "9/21/2022",
       "id": 1
     },
@@ -46,7 +51,7 @@
       "author": "fuad@gmail.com",
       "judul": "Air terjun ok",
       "img": "https://images.pexels.com/photos/4534200/pexels-photo-4534200.jpeg?auto=compress&cs=tinysrgb&w=600&h=750&dpr=1",
-      "content": "Rerum reiciendis exe",
+      "content": "Air terjun adalah keajaiban alam yang menakjubkan, di mana aliran air jatuh dari ketinggian dengan kekuatan dan keindahan yang mempesona. Suara gemuruh air yang jatuh menciptakan suasana yang menenangkan sekaligus menghidupkan. Setiap percikan air yang terbawa angin memberi kesegaran tersendiri, sementara kabut halus yang dihasilkan sering kali menambah keajaiban pemandangan di sekitarnya. Di dasar air terjun, kolam-kolam alami terbentuk, memberikan tempat bagi pengunjung untuk merasakan sejuknya air. Air terjun tidak hanya menjadi destinasi wisata yang memikat, tetapi juga simbol kekuatan alam yang terus mengalir, membawa kehidupan di sepanjang jalurnya.",
       "createdAt": "9/21/2022",
       "id": 2
     },
@@ -55,7 +60,7 @@
       "author": "joko@gmail.com",
       "judul": "Gunung",
       "img": "https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "content": "Gunung Yang sangat bagus",
+      "content": "Gunung adalah mahakarya alam yang menjulang tinggi, menyuguhkan pemandangan yang memukau sekaligus menantang bagi jiwa petualang. Di balik kemegahannya, gunung menyimpan misteri serta keheningan yang tak ternilai, dengan udara segar dan pepohonan yang menyelimuti lereng-lerengnya. Puncaknya seolah menyentuh awan, memberikan perasaan damai dan pencapaian bagi mereka yang berhasil menaklukkan rute pendakiannya. Bagi banyak orang, gunung bukan hanya sekadar tujuan perjalanan, tetapi juga tempat untuk merenung, menghubungkan diri dengan alam, dan menemukan kedamaian dalam keindahan yang abadi.",
       "createdAt": "9/22/2022",
       "id": 3
     }
